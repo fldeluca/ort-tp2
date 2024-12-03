@@ -1,0 +1,35 @@
+{
+  "name": "final-tp2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node .",
+    "watch": "node --watch .",
+    "test": "mocha src/test/gallery.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romerocaroe/FINAL-TP2.git"
+  },
+  "author": "FDeluca <frandeluca22@gmail.com>, Vicky <vicky.forystek@gmail.com>, Anto <luna.anto15@gmail.com>, DZimniak <zimniakdaniela@gmail.com>, CRomero <romerocaroe@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romerocaroe/FINAL-TP2/issues"
+  },
+  "homepage": "https://github.com/romerocaroe/FINAL-TP2#readme",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "chai": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.7.0",
+    "mongoose": "^8.4.1",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "mocha": "^10.4.0",
+    "supertest": "^7.0.0"
+  }
+}
